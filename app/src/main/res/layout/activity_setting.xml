@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/white" >
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="@dimen/toolbar_image_width"
+            android:layout_height="@dimen/toolbar_image_height"
+            android:background="@drawable/ic_arrow_back_black"
+            android:foreground="?attr/actionBarItemBackground" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="Setting" />
+    </Toolbar>
+
+</LinearLayout>
